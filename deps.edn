@@ -1,0 +1,11 @@
+{:paths ["src"]
+ :deps  {http-kit/http-kit     {:mvn/version "2.3.0"}
+         metosin/malli         {:mvn/version "0.10.1"}
+         org.jsoup/jsoup       {:mvn/version "1.15.4"}
+         org.clojure/tools.cli {:mvn/version "1.0.214"}
+         org.clojure/data.csv  {:mvn/version "1.0.1"}
+         funcool/promesa       {:mvn/version "10.0.594"}}
+
+ :aliases
+ {:build {:extra-deps {io.github.clojure/tools.build {:mvn/version "0.9.3"}}
+          :ns-default build}}}
